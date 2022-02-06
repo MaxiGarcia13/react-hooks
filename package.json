@@ -1,0 +1,22 @@
+{
+  "name": "@maxigarcia/react-hooks",
+  "version": "1.0.0",
+  "description": "Custom useful react hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxiGarcia13/react-hooks.git"
+  },
+  "author": "Maximiliano Garcia Mortigliengo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxiGarcia13/react-hooks/issues"
+  },
+  "homepage": "https://github.com/MaxiGarcia13/react-hooks#readme",
+  "dependencies": {
+    "@maxigarcia/useclassnames": "^1.0.0"
+  }
+}

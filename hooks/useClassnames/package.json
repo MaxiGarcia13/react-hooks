@@ -1,0 +1,12 @@
+{
+  "name": "@maxigarcia/useclassnames",
+  "version": "1.0.2",
+  "description": "It allow to handle class names to use it in some component",
+  "main": "useClassnames.js",
+  "author": "Maximiliano Daniel Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "typescript": "^4.5.5"
+  }
+}

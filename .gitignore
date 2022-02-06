@@ -1,0 +1,9 @@
+/node_modules
+hooks/*/node_modules
+
+/package-lock.json
+/hooks/*/package-lock.json
+
+.DS_Store
+
+/hooks/*/.DS_Store
