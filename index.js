@@ -1,1 +1,1 @@
-export { default as useclassnames } from '@maxigarcia/useclassnames';
+export { default as useClassnames } from '@maxigarcia/useclassnames';
