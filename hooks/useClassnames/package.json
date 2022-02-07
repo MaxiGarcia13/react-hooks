@@ -19,5 +19,12 @@
   "scripts": {
     "build": "npx tsc",
     "up": "npm run build && npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxiGarcia13/react-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MaxiGarcia13/react-hooks/issues"
   }
 }
