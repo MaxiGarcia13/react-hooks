@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/MaxiGarcia13/react-hooks#readme",
   "dependencies": {
-    "@maxigarcia/useclassnames": "1.2.2"
+    "@maxigarcia/useclassnames": "1.2.3"
   }
 }
