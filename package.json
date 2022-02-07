@@ -1,6 +1,6 @@
 {
   "name": "@maxigarcia/react-hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom useful react hooks",
   "main": "index.js",
   "scripts": {
