@@ -7,3 +7,5 @@ hooks/*/node_modules
 .DS_Store
 
 /hooks/*/.DS_Store
+
+dist
