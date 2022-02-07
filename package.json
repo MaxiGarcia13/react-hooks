@@ -1,10 +1,10 @@
 {
   "name": "@maxigarcia/react-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom useful react hooks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "up": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/MaxiGarcia13/react-hooks#readme",
   "dependencies": {
-    "@maxigarcia/useclassnames": "^1.0.0"
+    "@maxigarcia/useclassnames": "1.2.2"
   }
 }
