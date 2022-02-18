@@ -1,6 +1,6 @@
 {
   "name": "@maxigarcia/useclassnames",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "author": "Maximiliano Daniel Garcia",
   "description": "It allow to handle class names to use it in some component",
   "main": "dist/index.js",
