@@ -1,29 +1,13 @@
 import { useMemo } from 'react';
 
-type ObjectClassNames = Record<string, any>;
+type ObjectClassNames<T> = Record<string, T>;
 
-type Values = {
+type Values<T> = {
   classNames?: string;
-  objectClassNames?: ObjectClassNames;
+  objectClassNames?: ObjectClassNames<T>;
 };
 
-/**
- *
- * It allow to handle class names to use it in some component
- * @param { Object } Values
- * @param { string } Values.classNames
- * @param {Object<string, any>} Values.objectClassNames
- * @param {Array<any>} dependencies
- * @returns string
- * @example
- *  // Change value when the variable was change.
- *  useClassnames({classNames: "my-class", objectClassNames: {iam-conditional-class: myVariable}}, [myVariable])
- *  useClassnames({objectClassNames: {im-conditional-class: myVariable}}, [myVariable])
- *
- * // keep the value even if the component is re-rendered
- *  useClassnames({classNames: "my-class", objectClassNames: {im-conditional-class: myVariable}})
- */
-const useClassnames = ({ classNames, objectClassNames }: Values, dependencies?: Array<any>): string => {
+const useClassnames = <T>({ classNames, objectClassNames }: Values<T>, dependencies?: Array<T>): string => {
   const classnames = useMemo<string>(() => {
     let classnames = classNames ? `${classNames}` : '';
 
