@@ -1,5 +1,7 @@
 # useClassnames
 
+It allow to handle class names to use it in some component
+
 ## How install?
 
 ```
