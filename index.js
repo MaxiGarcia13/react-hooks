@@ -1,1 +1,3 @@
-export { default as useClassnames } from '@maxigarcia/useclassnames';
+const useClassnames = require('@maxigarcia/useclassnames');
+
+module.exports = { useClassnames };
