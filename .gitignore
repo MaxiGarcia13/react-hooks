@@ -5,6 +5,7 @@ hooks/*/node_modules
 /hooks/*/package-lock.json
 
 .DS_Store
+tsconfig.tsbuildinfo
 
 /hooks/*/.DS_Store
 
