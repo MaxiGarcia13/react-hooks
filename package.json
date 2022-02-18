@@ -2,10 +2,16 @@
   "name": "@maxigarcia/react-hooks",
   "version": "1.0.3",
   "description": "Custom useful react hooks",
-  "main": "index.js",
-  "scripts": {
-    "up": "npm publish --access=public"
+  "workspaces": [
+    "./hooks"
+  ],
+  "files": [
+    "./index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
   },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MaxiGarcia13/react-hooks.git"
@@ -16,7 +22,12 @@
     "url": "https://github.com/MaxiGarcia13/react-hooks/issues"
   },
   "homepage": "https://github.com/MaxiGarcia13/react-hooks#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0"
+  },
   "dependencies": {
-    "@maxigarcia/useclassnames": "1.2.3"
+    "@maxigarcia/useclassnames": "^1.2.3"
   }
 }
