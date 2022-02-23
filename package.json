@@ -28,6 +28,6 @@
     "eslint": "^8.9.0"
   },
   "dependencies": {
-    "@maxigarcia/useclassnames": "^1.2.3"
+    "@maxigarcia/useclassnames": "^2.0.4"
   }
 }
